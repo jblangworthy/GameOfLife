@@ -55,7 +55,7 @@
     <Compile Include="GridTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\GameOfLife.csproj">
+    <ProjectReference Include="..\GameofLife\GameOfLife.csproj">
       <Project>{04e816fb-81fd-40ba-b76f-d5f02979bb84}</Project>
       <Name>GameOfLife</Name>
     </ProjectReference>

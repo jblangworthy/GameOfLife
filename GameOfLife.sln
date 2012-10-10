@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife", "ClassLibrary1\GameOfLife.csproj", "{04E816FB-81FD-40BA-B76F-D5F02979BB84}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife", "GameofLife\GameOfLife.csproj", "{04E816FB-81FD-40BA-B76F-D5F02979BB84}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife.Test", "GameOfLife.Test\GameOfLife.Test.csproj", "{BEBEE00F-40A2-490C-8147-0CCAA8951BFA}"
 EndProject

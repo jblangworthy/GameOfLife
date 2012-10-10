@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GameOfLife.Model
 {
-    struct CoOrds
+    public struct CoOrds
     {
         public int X;
         public int Y;
