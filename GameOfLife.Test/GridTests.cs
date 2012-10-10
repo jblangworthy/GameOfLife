@@ -9,12 +9,13 @@ namespace GameOfLife.Test
         [TestMethod]
         public void SeedIsStoredCorrectly()
         {
+            throw new NotImplementedException();
         }
 
         [TestMethod]
         public void GridAccurateOverThreeTicksFromSeedOfFourCells()
         {
-            
+            throw new NotImplementedException();
         }
     }
 }
