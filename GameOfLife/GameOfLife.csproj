@@ -39,7 +39,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GameLogic.cs" />
     <Compile Include="Model\CoOrds.cs" />
     <Compile Include="Model\Grid.cs" />
     <Compile Include="Model\Cell.cs" />

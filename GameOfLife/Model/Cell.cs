@@ -35,15 +35,19 @@ namespace GameOfLife.Model
             return false;
         }
 
+        public void ResetNeighbourCount()
+        {
+            LiveNeighbourCount = 0;
+        }
 
         public void IncrementLiveNeighbourCount()
         {
             LiveNeighbourCount++;
         }
 
-        public void DecrementLiveNeighbourCount()
+        public bool Equals(Cell comparisonCell)
         {
-            LiveNeighbourCount--;
+            return (comparisonCell.IsAlive == this.IsAlive && comparisonCell.LiveNeighbourCount == this.LiveNeighbourCount) ? true : false;
         }
     }
 }
